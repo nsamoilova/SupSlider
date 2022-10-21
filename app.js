@@ -26,7 +26,7 @@ function changeSlide(direction){
   }else if(direction === 'down'){
       activeSlideIndex--
       if(activeSlideIndex < 0){
-          activeSlideIndex === slidesCount - 1
+          activeSlideIndex = slidesCount - 1
       }
   }
 
